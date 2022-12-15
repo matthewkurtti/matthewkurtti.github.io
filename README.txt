@@ -1,3 +1,5 @@
-Welcome to my personal website
+Check out my personal website at:
+
+www.matthewkurtti.com
 
 
