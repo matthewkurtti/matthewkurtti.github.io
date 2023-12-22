@@ -40,7 +40,11 @@ body {
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
-    line-height: 1.6;
+    line-height: 1;
+}
+
+section {
+    padding: 5em 2em;
 }
 
 img {
@@ -90,4 +94,34 @@ h3 {
 .section__subtitle--about {
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
+    margin-bottom: 1em;
+}
+
+/* header */
+nav {
+    display: none;
+}
+
+/* Intro section */
+.intro {
+    position: relative;
+}
+
+@media (min-width: 600px) {
+    .intro {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+        grid-template-areas:
+            "img title"
+            "img subtitle";
+        grid-template-columns: min-content max-content;
+
+    }
+
+    .intro__img {
+        grid-area: img;
+        min-width: 250px;
+    }
 }
