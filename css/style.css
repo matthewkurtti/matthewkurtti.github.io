@@ -14,7 +14,7 @@
     --fw-bold: 900;
 
     --clr-light: #fff;
-    --clr-dark: #000000;
+    --clr-dark: #000000ec;
     --clr-accent: #0a7cff;
 
     --fs-h1: 3rem;
@@ -459,4 +459,15 @@ header {
 
 .social-list__item {
     margin: 0 .5em;
+}
+
+/* Individual portfolio item styles */
+.portfolio-item-individual {
+    padding: 0 2em 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+    max-width: 600px;
 }
