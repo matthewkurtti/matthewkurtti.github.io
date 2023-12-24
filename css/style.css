@@ -14,7 +14,7 @@
     --fw-bold: 900;
 
     --clr-light: #fff;
-    --clr-dark: #000000ec;
+    --clr-dark: #000000d2;
     --clr-accent: #0a7cff;
 
     --fs-h1: 3rem;
@@ -407,6 +407,8 @@ header {
 }
 
 .portfolio__img {
+    /*width: 100%;*/
+    /*height: auto;*/
     transition:
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
