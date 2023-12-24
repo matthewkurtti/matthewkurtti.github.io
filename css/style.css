@@ -302,6 +302,8 @@ header {
     background-image: url(../images/japan-scenic.JPG);
     background-size: cover;
     background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--clr-light);
     text-align: center;
 }
