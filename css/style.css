@@ -283,15 +283,16 @@ header {
         z-index: 2;
     }
 
-    /* aka "software developer" */
+    /* aka "computer science student" */
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
         text-align: right;
+        text-indent: 0.5em;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 1.5em);
+        width: calc(100% + 5em);
     }
 }
 
