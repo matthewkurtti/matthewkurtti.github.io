@@ -289,7 +289,6 @@ header {
         grid-column: -1 / 1;
         grid-row: 2;
         text-align: right;
-        text-indent: 0.5em;
         position: relative;
         left: -1.5em;
         width: calc(100% + 5em);
